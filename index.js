@@ -13,6 +13,10 @@ client.on('message', message => {
     const Msg = body.toLowerCase()
     const hello = msgs.includes(Msg)
 
+    // Personalizadas
+    if(Msg === 'obrigado' || Msg === 'obrigada') return message.reply('de nada 😄')
+    if(Msg === 'valeu' || Msg === 'vlw') return message.reply('é nois 😎')
+
     //Comandos
     if(Msg === '!info') {
         return message.reply(
@@ -22,9 +26,7 @@ client.on('message', message => {
     if(Msg === '!help') return message.reply('comandos:\n!help\n!info')
 	if(hello) return message.reply('Oi! tudo bem?')
 
-    // Personalizadas
-    if(Msg === 'obrigado' || Msg === 'obrigada') return message.reply('de nada 😄')
-    if(Msg === 'valeu' || Msg === 'vlw') return message.reply('é nois 😎')
+
 })
 
 client.initialize()
