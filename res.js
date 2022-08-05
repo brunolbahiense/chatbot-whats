@@ -1,4 +1,4 @@
-let Message = {
+let objTest = {
     _data: {
       id: {
         fromMe: false,
@@ -71,3 +71,47 @@ let Message = {
     isEphemeral: false,
     links: []
   }
+
+
+const onjSalt = {
+  _data: {
+    id: {
+      fromMe: false,
+      remote: '5511942715049@c.us',
+      id: 'BAE5269D36B3BADA',
+      _serialized: 'false_5511942715049@c.us_BAE5269D36B3BADA'
+    },
+    body: 'vencimentos disponíveis',
+    type: 'chat',
+    t: 1659727347,
+    notifyName: 'Boticário / Eudora',
+    from: '5511942715049@c.us',
+    to: '556183830537@c.us',
+    self: 'in',
+    ack: 1,
+    isNewMsg: true,
+    star: false,
+    kicNotified: false,
+    recvFresh: true,
+    caption: 'vencimentos disponíveis',
+    isFromTemplate: true,
+    broadcast: false,
+    mentionedJidList: [],
+    footer: 'clique em uma das opções abaixo.',
+    hydratedButtons: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    buttons: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    isVcardOverMmsDocument: false,
+    isForwarded: false,
+    hasReaction: false,
+    ephemeralOutOfSync: false,
+    productHeaderImageRejected: false,
+    lastPlaybackProgress: 0,
+    isDynamicReplyButtonsMsg: false,
+    isMdHistoryMsg: false,
+    requiresDirectConnection: false,
+    pttForwardedFeaturesEnabled: true,
+    isEphemeral: false,
+    isStatusV3: false,
+    links: []
+  }
+}
